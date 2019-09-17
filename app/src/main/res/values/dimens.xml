@@ -4,7 +4,6 @@
     <dimen name="textViewHeight">40dp</dimen>
     <dimen name="editTextWidth">200dp</dimen>
     <dimen name="editTextHeight">60dp</dimen>
-    <dimen name="fontsize">25sp</dimen>
     <dimen name="bottomMargin">20dp</dimen>
     <dimen name="screenMargin">15dp</dimen>
     <dimen name="topPadding">10dp</dimen>

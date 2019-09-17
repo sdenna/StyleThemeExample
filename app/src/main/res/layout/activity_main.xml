@@ -74,12 +74,14 @@
             android:text="Password"
             android:paddingTop="@dimen/topPadding"/>
 
+
+
         <EditText
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
             android:id="@+id/password"
-            android:inputType="textPassword"
-            />
+            android:inputType="textPassword" />
+
 
 
         <Button
