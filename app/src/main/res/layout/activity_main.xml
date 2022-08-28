@@ -20,27 +20,32 @@
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
             android:text="First Name"
-            android:paddingTop="@dimen/topPadding"/>
+            android:paddingTop="@dimen/topPadding"
+            style="@style/TextViewCustom"/>
 
         <EditText
             android:id="@+id/firstName"
             android:inputType="textCapWords"
-            style="@style/editTextSettings"
-            />
+            style="@style/EditTextCustom"
+            android:hint="good morning"/>
+            <!--  Here I applied a different style for the
+                EditText than what is applied at the theme level
+            -->
 
         <TextView
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
             android:text="Last Name"
-            android:paddingTop="@dimen/topPadding"
+
             />
 
         <EditText
+            android:id="@+id/lastName"
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
-            android:id="@+id/lastName"
             android:inputType="textCapWords"
-            />
+            android:hint="hellow"
+             />
 
         <TextView
             android:layout_width="@dimen/editTextWidth"
@@ -65,8 +70,13 @@
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
             android:id="@+id/email"
+            android:textColor="@color/colorAccentPink"
             android:inputType="textEmailAddress"
             />
+        <!-- you can see this textColor overrides the
+               text color listed for EditText settings applied
+               at the theme level -->
+
 
         <TextView
             android:layout_width="@dimen/editTextWidth"

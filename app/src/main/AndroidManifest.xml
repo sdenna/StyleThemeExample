@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppThemePink">
         <activity android:name=".OtherActivity"
-            android:theme="@style/AppThemeDark">
+            android:theme="@style/AppThemeBlue">
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -7,12 +7,17 @@
     <color name="colorAccent">#D81B60</color>
 
     <!-- Color codes for pink mode -->
-    <color name="colorPrimary2">#DF5886</color>
-    <color name="colorPrimaryDark2">#702B43</color>
-    <color name="colorAccent2">#EEAEC4</color>
-    <color name="colorGrey">#666B6B</color>
+    <color name="colorPrimaryPink">#FF4081</color>
+    <color name="colorPrimaryDarkPink">#C60055</color>
+    <color name="colorAccentPink">#FF79B0</color>
     <color name="colorTint">#77EEAEC4</color>
 
+    <!-- Colors for Blue mode -->
+    <color name="colorPrimaryBlue">#00A9F4</color>
+    <color name="colorPrimaryDarkBlue">#007AC1</color>
+    <color name="colorAccentBlue">#67DAFF</color>
+    <color name="colorBackground">#EEEEEE</color>
 
+    <color name="colorGrey">#666B6B</color>
 
 </resources>

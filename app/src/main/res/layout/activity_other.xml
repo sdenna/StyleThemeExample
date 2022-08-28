@@ -11,6 +11,7 @@
         android:layout_height="match_parent"
         android:text="Hi there"
         android:textSize="@dimen/fontLarge"
+        android:layout_marginLeft="15dp"
         />
 
 
