@@ -10,12 +10,11 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_margin="@dimen/screenMargin"
         android:gravity="center_horizontal"
         >
-        
         <TextView
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
@@ -27,7 +26,7 @@
             android:id="@+id/firstName"
             android:inputType="textCapWords"
             style="@style/EditTextCustom"
-            android:hint="good morning"/>
+            android:hint="Wonder"/>
             <!--  Here I applied a different style for the
                 EditText than what is applied at the theme level
             -->
@@ -44,7 +43,7 @@
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
             android:inputType="textCapWords"
-            android:hint="hellow"
+            android:hint="Woman"
              />
 
         <TextView
@@ -77,13 +76,11 @@
                text color listed for EditText settings applied
                at the theme level -->
 
-
         <TextView
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
             android:text="Password"
             android:paddingTop="@dimen/topPadding"/>
-
 
 
         <EditText
@@ -92,8 +89,6 @@
             android:id="@+id/password"
             android:inputType="textPassword" />
 
-
-
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -101,7 +96,5 @@
             android:text="Click here"
             android:layout_marginBottom="100dp"/>
 
-
     </LinearLayout>
-    
 </ScrollView>

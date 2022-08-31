@@ -17,12 +17,12 @@
         <item name="colorAccent">@color/colorAccentPink</item>
         <item name="android:textColor">@color/colorGrey</item>
         <item name="android:textSize">@dimen/fontsize</item>
-        <!-- for some reason EditText style only worked universally if android: was
-             removed.  https://stackoverflow.com/questions/32377202/android-set-edit-text-style-globally-in-theme-doesnt-work
-             -->
         <item name="editTextStyle">@style/EditTextTest</item>
         <item name="android:textViewStyle">@style/TextViewCustom</item>
     </style>
+    <!-- for some reason EditText style only worked universally if android: was
+         removed.  https://stackoverflow.com/questions/32377202/android-set-edit-text-style-globally-in-theme-doesnt-work
+         -->
 
     <style name="AppThemeBlue" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <item name="colorPrimary">@color/colorPrimaryBlue</item>
@@ -32,21 +32,22 @@
         <item name="android:textSize">@dimen/fontsize</item>
     </style>
 
+
+    <!-- These styles are set up to give special styling to all of my EditText boxes
+       I can apply this style tag to my EditText tags and these fields will all be applied.
+       This is a way to have a preset list of settings without having to copy/paste them everywhere
+       notice that within the style settings I can still refer to the colors and dimens files-->
+
+
     <style name="EditTextTest" parent="android:style/Widget.EditText">
         <item name="android:background">@color/colorBackground</item>
         <item name="android:textColor">@color/colorPrimaryBlue</item>
         <item name="android:padding">@dimen/editTextPadding</item>
         <item name="android:layout_width">@dimen/editTextWidth</item>
         <item name="android:layout_height">@dimen/editTextHeight</item>
-
     </style>
 
-    <!-- This style is set up to give special styling to all of my EditText boxes
-       I can apply this style tag to my EditText tags and these fields will all be applied.
-       This is a way to have a preset list of settings without having to copy/paste them everywhere
-       notice that within the style settings I can still refer to the colors adn dimens files-->
-
-    <style name="EditTextCustom">
+    <style name="EditTextCustom" parent="android:style/Widget.EditText">
         <item name="android:background">@color/colorTint</item>
         <item name="android:textColor">@color/colorGrey</item>
         <item name="android:padding">@dimen/editTextPadding</item>
@@ -54,12 +55,9 @@
         <item name="android:layout_height">@dimen/editTextHeight</item>
     </style>
 
-
     <style name="TextViewCustom">
         <item name="android:textColor">@color/colorPrimaryDarkPink</item>
         <item name="android:textSize">36sp</item>
     </style>
-
-
 
 </resources>
